@@ -2,9 +2,107 @@
     list-style: none;
     display: flex;
     flex-direction: row;
+}
+.nav-bar li{
+    padding: 0 1em;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.nav-bar li a{
+    font-size: 1.5rem;
+}
+.nav-header{
+    display: flex;
     justify-content: space-between;
-    border: 2px;
-    border-radius: 7px;
-    border-style: solid ;
+    align-items: center;
+
+}
+#moia{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+a{
+    text-decoration: none;
+    color: indigo;
+}
+a h1{
+    color: white;
+}
+a h1:hover{
+    color: indigo;
+    text-decoration: underline;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+#intro{
+    margin-left: 8px;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hi{
+    margin-left: 140px;
+    font-family: cursive;
+}
+.title{
+    text-align: center;
+    border-style: dashed;
     border-color: indigo;
+    border-radius: 7px;
+}
+#about-info{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+    font-style: oblique;
+    letter-spacing: 2px;
+}
+#contact-pg{
+    text-align: center;
+}
+.input{
+    padding: 5px;
+    margin-top: 7px;
+    margin-left: 3px;
+}
+#button{
+    padding: 10px;
+    margin-top: 5px;
+    background-color: indigo;
+}
+#button:hover{
+    background-color: white;
+    color: indigo;
+}
+.icon {
+    margin-left: 10px;
+    color: indigo;
+}
+
+.icon:hover {
+    color: azure;
+}
+
+.con-info {
+    color: azure;
+}
+
+.ul-left {
+    float: left;
+}
+
+.ul-right {
+    float: right;
+    margin-right: 15px;
+}
+
+ul {
+    list-style: none;
+}
+#footer{
+    margin-top: 20vh;
 }
